@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Form</title>
+  </head>
+
+  <body>
+    <form action="/endpoint" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name :</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" required>
+            <br>
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" required>
+            <br>
+            <br>
+            <label for="age">Age :</label>
+            <input type="number" id="age" min="1" max="120">
+            <br>
+            <br>
+            <label for="dob">Date of Birth :</label>
+            <input type="date" id="dob">
+            <br>
+            <br>
+            <label for="time">Time :</label>    
+            <input type="time" id="time">
+            <br>
+            <br>
+            <label>Gender :</label>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" value="other" name="gender">
+            <label for="other">Other</label>    
+            <br>
+            <br>
+            
+            <label for="city">City :</label>
+            <select id="city" name="city">
+                <option value="">Please Select</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="pune">Pune</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Interests :</label>
+            <br>
+            <input type="checkbox" id="coding" name="interests">
+            <label for="coding">Coding</label>
+            <br>
+            <input type="checkbox" id="music" name="interests">
+            <label for="music">Music</label>
+            <br>
+            <input type="checkbox" id="cricket" name="interests">
+            <label for="cricket">Cricket</label>
+            <br>
+            <input type="checkbox" id="dance" name="interests">
+            <label for="dance">Dance</label>
+            <br>
+            <br>
+
+            <label for="address">Address :</label>
+            <br>
+            <textarea id="address" rows="5" cols="40">Enter your address here...</textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+  </body>
+</html>

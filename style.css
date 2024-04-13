@@ -1,0 +1,58 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    color: orange;
+    text-align: center;
+}
+
+#momos1{
+    color: cornflowerblue;
+}
+
+p{
+    color: white;
+}
+
+.momos{
+    color: darkorange;
+}
+
+
+.about{
+    color: green;
+}
+
+.contact{
+    color: yellow;
+}
+
+
+
+#description{
+    color: cornflowerblue;
+}
+
+#serving{
+    color: chocolate;
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    background-color: deepskyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px solid white;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}

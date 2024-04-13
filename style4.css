@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "sidebar1 content1"
+    "sidebar2 content2"
+    "sidebar3 content3"
+    "footer footer";
+    grid-template-rows: auto;
+}
+
+.header{
+    grid-area: header;
+    background-color: burlywood;
+}
+.sidebar1{
+    grid-area: sidebar1;
+}
+.sidebar2{
+    grid-area: sidebar2;
+}
+.sidebar3{
+    grid-area: sidebar3;
+}
+
+.side{
+    background-color: aqua;
+}
+.content1{
+    grid-area: content1;
+    background-color: yellow;
+}
+.content2{
+    grid-area: content2;
+    background-color: red;
+}
+.content3{
+    grid-area: content3;
+    background-color: green;
+}
+.footer{
+    grid-area: footer;
+    background-color: grey;
+}
+
+
+.item{
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+}

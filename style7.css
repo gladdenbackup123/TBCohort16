@@ -1,0 +1,52 @@
+body{
+    height: 100%;
+    background-color: aqua;
+}
+
+.ball1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+    animation: bounce1 2s ease-in-out infinite alternate;
+}
+
+.ball2{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    animation: bounce1 1s ease-in-out infinite alternate-reverse;
+}
+
+.ball3{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top : 50%;
+    animation: bounce2 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes bounce1 {
+    0%{
+        top: 90%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+@keyframes bounce2 {
+    0%{
+        left: 80%;
+    }
+    100%{
+        left: 20%;
+    }
+}

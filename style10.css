@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+}
+
+.item{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}

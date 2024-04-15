@@ -3,10 +3,13 @@
     height: 200px;
     border: 10px solid black;
     border-radius: 50%;
-    border-top: 10px solid green;
+    /* border-top: 10px solid green; */
     animation: spin 2s linear infinite;
 }
 
+body{
+    background-color: black;
+}
 @keyframes spin{
     0%{
         transform: rotate(0deg);

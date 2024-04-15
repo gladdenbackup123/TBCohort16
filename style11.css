@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: rosybrown;
+    padding: 25px;
+    border: 2px solid black;
+}

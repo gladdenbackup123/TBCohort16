@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid white;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.sunflower{
+    border-radius: 10%;
+    border: 2px solid white;
+}
+
+#yellowlily{
+    border: 2px solid white;
+}
+
+div{
+    display: block;
+    background-color: darkorchid;
+    border: 2px solid white;
+    padding : 20px;
+    margin: 40px;
+}

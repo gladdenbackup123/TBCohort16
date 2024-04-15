@@ -1,0 +1,72 @@
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top : 20%;
+    background-color: chartreuse;
+    animation: moving 2s ease-in-out 3s infinite normal;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top : 20%;
+    background-color: chartreuse;
+    animation: moving2 2s ease-in-out 3s infinite normal;
+}
+
+@keyframes moving{
+    0%{
+        left:30%;
+        top:30%;
+        background-color: red;
+    }
+    25%{
+        top:30%;
+        left:70%;
+        background-color: yellow;
+    }
+    50%{
+        left:70%;
+        top:70%;
+        background-color: greenyellow;
+    }
+    75%{
+        left:30%;
+        top:70%;
+        background-color: lightblue;
+    }
+    100%{
+        left: 30%;
+        top: 30%;
+        background-color: red;
+    }
+}
+
+@keyframes moving2{
+    0%{
+        left:10%;
+        top:30%;
+        background-color: red;
+    }
+    25%{
+        top:30%;
+        left:60%;
+        background-color: yellow;
+    }
+    50%{
+        left:60%;
+        top:70%;
+        background-color: greenyellow;
+    }
+    75%{
+        left:10%;
+        top:70%;
+        background-color: lightblue;
+    }
+    100%{
+        left: 10%;
+        top: 30%;
+        background-color: red;
+    }
+}

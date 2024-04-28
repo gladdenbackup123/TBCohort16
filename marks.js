@@ -1,17 +1,8 @@
-let marks = 45;
+let marks = 35;
 
-if(marks > 90){
-    console.log("A");
-}
-else if(marks > 80 ){
-    console.log("B");
-}
-else if(marks > 70 ){
-    console.log("C");
-}
-else if(marks > 60 ){
-    console.log("D");
+if(marks>40){
+    console.log("Pass");
 }
 else{
-    console.log("F");
+    console.log("Fail");
 }

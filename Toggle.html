@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <p id="para">Hello World :)</p>
+        <button id="togglebutton">Toggle</button>
+
+        <script>
+            document.getElementById('togglebutton').addEventListener('click',function(){
+                var textElement = document.getElementById('para');
+                if(textElement.style.display !== 'none'){ // if para is visible
+                    textElement.style.display = 'none'; //make it none
+                }
+                else{ //if para is invisible
+                    textElement.style.display = 'block'; //make it visible ( back to normal )
+                }
+            });
+        </script>
+    </body>
+</html>

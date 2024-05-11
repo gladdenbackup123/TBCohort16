@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <p id="para">Double click and I will Grow!</p>
+        <script>
+            document.getElementById('para').addEventListener('dblclick',function(){
+                    var fontSize = window.getComputedStyle(this).fontSize;
+                    this.style.fontSize = (parseInt(fontSize)+2) +'px';
+            });
+        </script>
+    </body>
+</html>

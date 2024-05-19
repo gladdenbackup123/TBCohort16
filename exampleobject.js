@@ -4,7 +4,16 @@
 // console.log(person.city);
 // console.log(person.profession);
 
-let student = {rollno:21 , class:"10th" , height:"6'2" , weight:75};
+let student = {
+    rollno:21 , 
+    class:"10th" , 
+    height:"6'2" , 
+    weight:75
+};
 
-let pen = {name:"cellopinpoint" ,color:"blue" ,type:"ballpen"};
+let pen = {
+    name:"cellopinpoint" ,
+    color:"blue" ,
+    type:"ballpen"
+};
 console.log(pen.color);

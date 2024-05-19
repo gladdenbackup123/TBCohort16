@@ -23,7 +23,6 @@ console.log(name,age,city);
 
 //Dynamic Property access
 let x = 'emailid';
-
 let student = {
     name:'Gladden',
     rollNo:'60',

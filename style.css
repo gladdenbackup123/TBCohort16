@@ -1,58 +1,25 @@
-h1{
-    color: red;
-    text-align: center;
+#box1{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
 }
-
-body{
-    background-color: black;
+#box2{
+    height: 50px;
+    width: 50px;
+    background-color: darkorange;
 }
-
-h2{
-    color: orange;
-    text-align: center;
+#box3{
+    height: 50px;
+    width: 50px;
+    background-color: violet;
 }
-
-#momos1{
-    color: cornflowerblue;
+#box4{
+    height: 50px;
+    width: 50px;
+    background-color: green;
 }
-
-p{
-    color: white;
-}
-
-.momos{
-    color: darkorange;
-}
-
-
-.about{
-    color: green;
-}
-
-.contact{
-    color: yellow;
-}
-
-
-
-#description{
-    color: cornflowerblue;
-}
-
-#serving{
-    color: chocolate;
-}
-
-.box{
-    width: 400px;
-    height: 200px;
-    background-color: deepskyblue;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: 10px solid white;
-    margin-left: 20px;
-    margin-top: 40px;
-    margin-bottom: 10px;
+#box5{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
 }

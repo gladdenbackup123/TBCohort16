@@ -2,7 +2,7 @@ let dogButton = document.getElementById('dog-btn');
 dogButton.addEventListener('click',dogButtonhander);
 
 function dogButtonhander(){
-    fetch('https://dog.ceo/api/breeds/image/random')
+    fetch('https://dog.ceo/api/breeds/image/rand')
         .then( response =>{
             if(response.status===200)
                 console.log("Request Successfull");

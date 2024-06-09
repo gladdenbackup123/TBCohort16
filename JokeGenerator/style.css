@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 300px;
+    width: 500px;
+    background-color:wheat;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#joke-button{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+#setup{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('https://images.unsplash.com/photo-1504253163759-c23fccaebb55?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#weather-button{
+    cursor: pointer;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+#city{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#temperature{
+    font-weight: bold;
+}
+
+

@@ -4,6 +4,8 @@ import Posts from './Posts';
 import Counter from './Counter';
 import Theme from './Theme';
 import RandomBackground from './RandomBackground';
+import CountdownTimer from './CountdownTimer';
+
 function App() {
   return (
     <div className="App">
@@ -11,7 +13,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Theme/> */}
 
-      <RandomBackground/>
+      {/* <RandomBackground/> */}
+      <CountdownTimer/>
     </div>
   );
 }

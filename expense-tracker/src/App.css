@@ -1,0 +1,78 @@
+body{
+  background-image: url('https://images4.alphacoders.com/133/thumb-1920-1338472.png');
+  /* background-color: rgb(168, 244, 168); */
+}
+
+.filter-container {
+  margin: 20px 0;
+}
+
+.filter-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.expense-list-container {
+  margin: 20px 0;
+}
+
+.expense-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-form-container {
+  margin: 20px 0;
+}
+
+.expense-form label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.expense-form input, .expense-form select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.expense-form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-form button:hover {
+  background-color: #218838;
+}
+
+.App-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+}

@@ -6,8 +6,10 @@ function Counter(){
     const [count,setCount] = useState(0);
 
     useEffect(()=>{
-        document.title = `You clicked ${count} times!`;
-        // alert("Count Updated"+count);
+        //document.title = `You clicked ${count} times!`;
+        localStorage.setItem('favoriteColor', 'red');
+        alert("Count Updated"+count);
+
     }, [count] )
 
     return (

@@ -1,0 +1,16 @@
+{
+  "name": "demo-node",
+  "version": "1.0.0",
+  "description": "This is my first Node js project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "axios": "^1.7.3",
+    "express": "^4.19.2"
+  }
+}

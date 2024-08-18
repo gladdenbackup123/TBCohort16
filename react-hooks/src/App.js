@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       {/* <Posts/> */}
-      {/* <Counter/> */}
+      <Counter/>
       {/* <Theme/> */}
 
       {/* <RandomBackground/> */}
-      <CountdownTimer/>
+      {/* <CountdownTimer/> */}
     </div>
   );
 }

@@ -1,0 +1,46 @@
+Example Requests :
+
+GET all fruits:
+curl http://localhost:3000/fruits
+
+
+POST a new fruit:
+curl 
+-X POST 
+-H "Content-Type: text/plain" 
+-d "Mango" 
+http://localhost:3000/fruits
+
+
+curl -X POST -H "Content-Type: text/plain" -d "Mango" http://localhost:3000/fruits
+
+
+
+PUT update a fruit:
+
+curl 
+-X PUT 
+-H "Content-Type: text/plain" 
+-d "Strawberry" 
+http://localhost:3000/fruits/1
+curl -X PUT -H "Content-Type: text/plain" -d "Jamun" http://localhost:3000/fruits/2
+
+
+
+
+DELETE a fruit:
+curl -X DELETE http://localhost:3000/fruits/1
+
+
+
+
+
+
+
+curl -X POST -H "Content-Type: text/plain" -d "Mango" http://localhost:3000/fruits
+curl: A tool to send HTTP requests.
+-X POST: Specifies the request method as POST (used to send data to the server).
+-H "Content-Type: text/plain": Sets the Content-Type header to text/plain, telling the server that the data is plain text.
+-d "Mango": Sends "Mango" as the data in the request body.
+http://localhost:3000/fruits: The URL of the server and endpoint where the request is sent.
+Purpose: This command sends a POST request to add "Mango" to the list of fruits on the server.

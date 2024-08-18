@@ -4,7 +4,7 @@ var app = express()
 app.use(express.static('public'))
 
 app.get('/', function (req, res) {
-  res.send('Hello World! I am learning Express.')
+  res.send('Hello World! I am learning Express')
 })
 
 app.get('/profile', function (req, res) {

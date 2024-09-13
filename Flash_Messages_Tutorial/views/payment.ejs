@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bharat Seva</title>
+</head>
+<body>
+    <h1>Please donate!</h1>
+
+    <% if (message.length > 0) { %>
+        <p style="color: green;"><%= message %></p>
+    <% } %>
+
+    <% if (error.length > 0) { %>
+        <p style="color: red;"><%= error %></p>
+    <% } %>
+
+
+    <form action="/submit" method="POST">
+        <label for="amount">Enter your donation amount :</label>
+        <input type="text" id="amount" name="amount">
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>
